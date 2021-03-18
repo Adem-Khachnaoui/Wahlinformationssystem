@@ -1,0 +1,66 @@
+.App {
+  text-align: center;
+  min-height: 2000px
+}
+
+.ToggleButtons {
+  justify-content: center;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  padding-bottom: 20px;
+}
+
+.Button {
+  padding: 10px;
+}
+
+.ZusammensetzungPieChart {
+  width: 70%;
+  margin: auto;
+}
+
+.PieChart {
+  width: 90%;
+  margin: auto;
+  padding-bottom: 30px;
+}
+
+.BarChart {
+  width: 100%;
+  margin: auto;
+  padding-bottom: 30px;
+}
+
+
+.Content {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+}
+
+.Title {
+  padding: 20px;
+}
+
+.Subtitle {
+  padding: 20px;
+  color: gray;
+}
+
+.Modal {
+  text-align: center;
+}
+
+.dropdown-menu {
+  max-height: 600px;
+  overflow-y: scroll;
+}
+
+.centerVertically {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
